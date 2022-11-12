@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { DiApple } from 'react-icons/di'; //Import icons
+import React from 'react';
 import './App.css'
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div><DiApple />
+    </div>
   )
 }
 
