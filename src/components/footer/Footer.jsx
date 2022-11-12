@@ -2,7 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <h1>Petrovic</h1>
+        <footer className='container mx-auto'>
+            <h1>Footer</h1>
+        </footer>
     )
 }
 

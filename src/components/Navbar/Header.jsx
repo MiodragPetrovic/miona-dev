@@ -4,7 +4,7 @@ import { CiFacebook, CiInstagram } from 'react-icons/ci';
 const Navbar = () => {
     return (
             <header className='container flex mx-auto items-center justify-between py-5'>
-                <a href=""><img src="./img/MionaDev-Logo.svg"  width="150px" alt="Logo MionaDev" /></a>
+                <a href="/"><img src="./img/MionaDev-Logo.svg" width="150px" alt="Logo MionaDev" /></a>
                 <nav>
                     <ul className='flex gap-5 uppercase'>
                         <li>
@@ -25,9 +25,7 @@ const Navbar = () => {
                     </ul>
                 </nav>
                 <span className='flex gap-3'><CiFacebook /><CiInstagram /></span>
-                <button className="bg-red hover:bg-red-dark text-white font-bold py-2 px-4 rounded">
-  Button
-</button>
+                <button className="bg-red-500 hover:bg-red-800 px-10 rounded-4">Neu Projekt</button>
             </header>
     )
 }
