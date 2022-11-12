@@ -8,24 +8,24 @@ const Navbar = () => {
                 <nav>
                     <ul className='flex gap-5 uppercase'>
                         <li>
-                            <a href="">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li>
-                            <a href="">Über uns</a>
+                            <a href="/Ueberuns">Über uns</a>
                         </li>
                         <li>
-                            <a href="">Services</a>
+                            <a href="/Services">Services</a>
                         </li>
                         <li>
-                            <a href="">Projekte</a>
+                            <a href="/Portfolio">Projekte</a>
                         </li>
                         <li>
-                            <a href="">Kontakt</a>
+                            <a href="/Kontakt">Kontakt</a>
                         </li>
                     </ul>
                 </nav>
                 <span className='flex gap-3'><CiFacebook /><CiInstagram /></span>
-                <button class="bg-red hover:bg-red-dark text-white font-bold py-2 px-4 rounded">
+                <button className="bg-red hover:bg-red-dark text-white font-bold py-2 px-4 rounded">
   Button
 </button>
             </header>
