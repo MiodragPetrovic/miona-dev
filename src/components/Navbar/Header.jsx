@@ -1,11 +1,12 @@
 import React from 'react';
+import { CiFacebook, CiInstagram } from 'react-icons/ci';
 
 const Navbar = () => {
     return (
-            <header className='container flex mx-auto items-center justify-around'>
+            <header className='container flex mx-auto items-center justify-between py-5'>
                 <a href=""><img src="./img/MionaDev-Logo.svg"  width="150px" alt="Logo MionaDev" /></a>
-                <nav className='flex-1'>
-                    <ul className='flex gap-4'>
+                <nav>
+                    <ul className='flex gap-4 uppercase'>
                         <li>
                             <a href="">Home</a>
                         </li>
@@ -23,6 +24,10 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </nav>
+                <span className='flex gap-3'><CiFacebook /><CiInstagram /></span>
+                <button class="bg-red hover:bg-red-dark text-white font-bold py-2 px-4 rounded">
+  Button
+</button>
             </header>
     )
 }
