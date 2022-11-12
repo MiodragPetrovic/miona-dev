@@ -6,7 +6,7 @@ const Navbar = () => {
             <header className='container flex mx-auto items-center justify-between py-5'>
                 <a href=""><img src="./img/MionaDev-Logo.svg"  width="150px" alt="Logo MionaDev" /></a>
                 <nav>
-                    <ul className='flex gap-4 uppercase'>
+                    <ul className='flex gap-5 uppercase'>
                         <li>
                             <a href="">Home</a>
                         </li>

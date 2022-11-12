@@ -3,12 +3,16 @@ import React from 'react';
 import './App.css'
 //import Navbar from './components/navbar/Header'; // Import compoments
 import { Navbar, Footer } from './components';
+import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <>
+    <Navbar />
+      <Routes>
+        <Route path='/' />
+      </Routes>
+    </>
   )
 }
 
