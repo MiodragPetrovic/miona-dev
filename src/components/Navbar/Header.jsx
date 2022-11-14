@@ -25,7 +25,7 @@ const Navbar = () => {
                     </ul>
                 </nav>
                 <span className='flex gap-3'><CiFacebook /><CiInstagram /></span>
-                <button className="bg-red-500 hover:bg-red-800 px-10 rounded-4">Neu Projekt</button>
+                <button className="bg-red-500 hover:bg-red-800 px-10 pt-5 pb-5 rounded-4">Neu Projekt</button>
             </header>
     )
 }
